@@ -1,10 +1,10 @@
 export default function auth() {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
         name: 'Ádám Székely',
-        avatar: 'https://avatars3.githubusercontent.com/u/7238093?v=3&s=40',
         uid: 'adamszekely',
+        avatar: 'https://avatars3.githubusercontent.com/u/7238093?v=3&s=40',
       });
     }, 2000);
   });
